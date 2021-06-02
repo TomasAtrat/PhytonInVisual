@@ -32,4 +32,9 @@ result= NumerosIguales(20, 20)
 
 print(result)
 
+def repetirPalabraR(iterador, palabra, cantidadVeces):
+    if(iterador<cantidadVeces):
+        print(palabra)
+        repetirPalabraR(iterador+1, palabra, cantidadVeces)
 
+repetirPalabraR(0, "Tomás Atrat", 10)
